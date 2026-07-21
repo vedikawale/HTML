@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML links Demo</h1>
+    <!__external link__>
+    <a href="https.//www.google.com"target="_blank">
+        google
+    </a>
+    <br><br>
+    <!__internal links__>
+    <a href="about.html">
+        about us
+    </a>
+    <br><br>
+    <!__email link__>
+    <a href="mailto:test@gmail.com">
+        email us
+    </a>
+    <br><br>
+    <!__phone link__>
+    <a href="tel:+8888888888">
+        call us 
+
+    </a>
+    <br><br>
+    <!__download link__>
+    <a href="notes.pdf "download>
+        download pdf
+    </a>
+    <br><br>
+    <!__bookmark link__>
+    <a href="#bottom">
+        go to bottom
+    </a>
+    <br><br><br><br><br><br><br><br>
+    <h2 id="bottom">bottom of page</h2>
+</body
+</html>
