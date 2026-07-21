@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moving Ship in Ocean</title>
+</head>
+<body>
+
+<svg width="800" height="400">
+
+    <!-- Sky -->
+    <rect width="800" height="250" fill="skyblue"/>
+
+    <!-- Ocean -->
+    <rect y="250" width="800" height="150" fill="deepskyblue"/>
+
+    <!-- Sun -->
+    <circle cx="700" cy="80" r="40" fill="yellow"/>
+
+    <!-- Ship -->
+    <g>
+        <!-- Ship Body -->
+        <polygon points="0,0 120,0 100,30 20,30"
+                 fill="brown"/>
+
+        <!-- Mast -->
+        <line x1="60" y1="0" x2="60" y2="-70"
+              stroke="black" stroke-width="3"/>
+
+        <!-- Sail -->
+        <polygon points="60,-70 60,-10 100,-40"
+                 fill="white"/>
+
+        <!-- Animation -->
+        <animateTransform
+            attributeName="transform"
+            type="translate"
+            from="-150 280"
+            to="850 280"
+            dur="12s"
+            repeatCount="indefinite"/>
+    </g>
+
+    <!-- Waves -->
+    <path d="M0 270 Q20 250 40 270 T80 270 T120 270 T160 270
+             T200 270 T240 270 T280 270 T320 270 T360 270
+             T400 270 T440 270 T480 270 T520 270 T560 270
+             T600 270 T640 270 T680 270 T720 270 T760 270 T800 270"
+          fill="none" stroke="white" stroke-width="2"/>
+
+</svg>
+
+</body>
+</html>
