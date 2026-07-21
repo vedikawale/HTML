@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+    <h1>welcome to my website</h1>
+    <h2>i am vedika </h2>
+    <h3>my favourite dish is panipuri</h3>
+    <h4>i am from latur</h4>
+    <h5>my favourite colour pink</h5>
+    <h6>welcome to jspm</h6>
+
+</body>
+</html>
