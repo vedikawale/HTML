@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application</title>
+</head>
+<body>
+    <center>
+      <h2>Job Applicatio Form</h2>
+      </center>
+      <form>
+        <fieldset>
+            <legend><b>personal details</b></legend>
+          <label for="">Student name:</label>
+          <input type="text"><br><br>
+          <label for="">Father name:</label>
+          <input type="text"><br><br>
+          <label for="">Mother name:</label>
+          <input type="text"><br><br>
+          <label for="">Email:</label>
+          <input type="email"><br><br>
+          <label for="">Date of Birth</label>
+          <input type="date"><br><br>
+          <label for="">Gender</label>
+          <input type="radio" name="gender">male
+           <input type ="radio" name="gender">female 
+           <br><br>
+           <label for="">mobile number</label>
+           <input type="tel"><br><br>
+           <label for="">Marital status </label>
+           <select>
+            <option>select</option>
+            <option>single</option>
+            <option>married</option>
+         </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Educational details</legend>
+            <label for="">10th percentage</label>
+            <input type="text"><br><br>
+            <label for="">12th percentage</label>
+            <input type="text"><br><br>
+            <label for="">Graduation:</label>
+            <input type="text"><br><br>
+            <label for="">university</label>
+            <input type="text"><br><br>
+            <label for="">passing year</label>
+            <input type="text"><br><br>
+            <label for="">Additional Qualification</label>
+            <input type="text"><br><br>
+        </fieldset>
+        <br>
+        <legend>Experience details</legend>
+        <label for="">Total Experience</label>
+        <input type="range"><br><br>
+        <label for="">Previous Company</label>
+        <label for="">Skills:</label>
+        <textarea rows="4" colos="30"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+        <fieldset>
+            <legend><b>Experience Details</b></legend>
+            <label for="">Total Experience:</label>
+            <input type="text"><br><br>
+            <label for="">Current Company:</label>
+            <input type="text"><br><br>
+            <label for="">Designation:</label>
+            <input type="text"><br><br>
+              <label for="">Current Salary:</label>
+            <input type="text"><br><br>
+             <label for="">Skills:</label>
+            <textarea rows="5"cols="60"></textarea><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Address detais:</legend>
+            <label for="">City:</label>
+            <input type="text"><br><br>
+             <label for="">State:</label>
+            <input type="text"><br><br>
+             <label for="">Pin Code:</label>
+            <input type="text"><br><br>
+            <label for="">Country:</label>
+            <input type="text">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>photo & signature</b></legend>
+        <label for="">Upload photo:</label>
+        <input type="file"><br><br>
+        <label for="">Upload Signature:</label>
+        <input type="file">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>Required Documents</b></legend>
+        <label for="">Resume/cv:</label>
+        <input type="file"><br><br>
+        <label for="">Aadhaar card:</label>
+        <input type="file"><br><br>
+        <label for="">PAN card:</label>
+        <input type="file"><br><br>
+        <label for="">10th Marksheet:</label>
+        <input type="file"><br><br>
+         <label for="">12th Marksheet:</label>
+        <input type="file"><br><br>
+        <label for="">Graduation certificate:</label>
+        <input type="file"><br><br>
+        <label for="">Other Document:</label>
+        <input type="file"muitiple>
+      </fieldset>
+      <br><br>
+      <fieldset>
+          <legend><b>Declaration</b></legend>
+          <input type="checkbox">I hereby declare that all the information provided above 
+          is true and correct to thre best of my knowledge
+      </fieldset>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      </form>
+</body>
+</html>
