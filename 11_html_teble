@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+</head>
+<body>
+    <table border="4" cellpadding = "10" cellspacing="0" width="90%">
+        <caption><h1>10th Marksheet</h1></caption>
+        <caption><h2>Kawale vedika sachin </h2></caption>
+        <thead> 
+            <tr>
+                <td rowspan="2">subject Code no.and Subject Name</td>
+                <td rowspan="2">Maximum Marks</td>
+                <td colspan="2">Marks and grade Obtained</td>
+                </tr> 
+                
+
+                <tr>  
+                <td>In Figures</td>
+                <td>In Words</td>
+            </tr>
+        </thead>
+          
+          <tbody>
+          <tr>
+           <td>01 MARATHI(1ST LANG)</td>
+              <td>100</td>
+                <td>91</td>
+                  <td>EIGHTYEIGHT</td>
+          </tr>
+          <tr>
+              <td>27 hindi(2/3 LANG)</td>
+                  <td>100</td>
+                 <td>089</td>
+                    <td>EIGHTYFIVE</td>
+          </tr>
+          <tr>
+           <td>17 ENGLISH(2/3 LANG)</td>
+              <td>100</td>
+                <td>079</td>
+                  <td>NINETYONE</td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>71 MATHEMATICS</td>
+                        <td>100</td>
+                            <td>069</td>
+                                <td>EIGHTY SIX</td>
+                </tr>
+                <tr>
+                    <td>72 SCIENCE & TECHNOLOGY</td>
+                        <td>100</td>
+                            <td>089</td>
+                                <td>EIGHTYEIGHT</td>
+            </tr>
+            <tr>
+                <td>73 SOCIAL SCIENCE</td>
+                    <td>100</td>
+                        <td>079</td>
+                            <td>NINETY</td>
+            </tr>
+            <tr>
+                <td>p1 HEALTH & PHYSICAL EDUCATION</td>
+                <td>*</td>
+                <td>A</td>
+            </tr>    
+            <tr>
+                <td>p4 DEFENCE STUDIES</td>
+                <td>*</td>
+                <td>A</td>
+            </tr>      
+            <tr>
+                <td>R8 WATER SECURITY</td>
+                <td>*</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Percentage   84.80</td>
+                <td>500</td>
+                <td>424</td>
+                <td>FOUR HUNDRED AND twenty four</td>
+            </tr>
+            <tr>
+                <td>Result : PASS</td>
+            </tr>
+            </tbody>
+            
+            </table>
+</body>
+</html>
