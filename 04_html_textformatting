@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+   <h1><u>environmental protection</u></h1> 
+   <p> environment is the most <strong>important</strong>part of human life
+      it provides us air water food ans sheltter.today pollution and deforestion
+      are creating many problem for nature .therefore it is our duty 
+      <em>protect the environment</em>
+    </p>
+    <hr>
+    <h2><mark>important of trees</mark></h2>
+    <p>
+        trees give us oxygen and maintain ecological balance.
+        we should never <del>cut trees a necesarrily</del>and instead
+        <ins>plant more trees</ins>
+    </p>
+    <h2><b>pollution control</b></h2>
+    <p>
+        pollution affects human health badly . water pollution, air pollution ,
+        and noise pollution are incresings day by day.
+        we should use public transport and reduse plastic usage.
+    </p>
+    <h2><i>save water </i></h2>
+    <p>
+        water is precious.only<small>3% of earth water</small>is fresh water.
+        we should save water for future generation
+    </p>
+    <h2>scientific facts</h2>
+    <p>
+        water farmula is  H<sub>to </sub>o and plants release
+        o<sub>2</sub>
+ </p>
+ <p>
+    Einstein famous equaction is E=mc <sup>to</sup>
+</p>
+<br>
+<hr>
+<p>
+    in conclusion, everyone should take reponsibility for protecting nature.
+    a clean and green environment leads to a health and happy life.
+</p>
+</body>
+</html>
